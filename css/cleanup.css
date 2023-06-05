@@ -1,1 +1,32 @@
-/* write your override styles here */
+
+#wall .tag-1,
+#wall #tag-2,
+#wall #tag-3,
+#wall #tag-4,
+#wall #tag-5,
+#wall #tag-6,
+#wall #tag-7 {
+  display: none;
+}
+
+.tag-1{
+    background-color: red;
+
+}
+#tag-2{
+background-image: url(path/to/your/image.jpg);
+    
+}
+#tag-3{
+    z-index: 10;
+    background-color: blue;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
